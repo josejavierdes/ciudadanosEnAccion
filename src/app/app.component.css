@@ -3,13 +3,8 @@
     margin: 0;
     padding: 0;
 }
-header{
-    background-color: rgb(255, 255, 255);
-    height: 120px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
+
+
 
 .logo{
     margin-top: 5px;
