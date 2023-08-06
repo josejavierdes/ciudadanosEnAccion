@@ -1,64 +1,34 @@
 *{
     font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-.logo{
-    margin-top: 5px;
-    width: 90px;
-    margin-left: 30px;
-    border-radius: 40px;
-}
-
-.home{
-    background-color: rgb(157, 5, 5);
-    border-radius: 10px;
-    width: 200px;
-    height: 80px;
-    margin-right: 40px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 30px;
-    transition: transform 0.2s ease;
-}
-  
-.home:hover {
-    transform: scale(1.1);
 }
 
 section{
     position:absolute;
+    top: 0px;
     left: 0;
     right: 0;
-    height: 800px;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #091448;
 }
 
-.titles{
+    .titles{
     width: 70%;
     text-align: center;
     color: white;
 
-}
-.title{
-    font-size: 94px;
-    font-style: normal;
-    font-weight: 700;
-}
-.subtitle{
-    margin-top: 50px;
-    font-size: 35px;
-}
-
+    }
+        .title{
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 700;
+        }
+        .subtitle{
+            margin-top: 40px;
+         font-size: 25px;
+        }
 
 p{
     text-align: right;
@@ -66,45 +36,30 @@ p{
 }
 
 
-.grid-images {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 900px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 100%;
-    gap: 20px;
-    margin-top: 80px;
-    overflow: hidden;
-}
-  
-.imagen_mosaico {
-    width: 500px;
-    height: 600px;
-}
-
-.grid-images img {
-    transition: transform 0.2s ease;
-    overflow: visible;
-  }
-  
-  .grid-images img:hover {
-    transform: scale(1.1);
-  }
-
 .cartel{
     position:absolute;
-    top: 1540px;
+    top: 1000px;
     left: 0;
     right: 0;
-    margin-top: 80px;
-    height: 600px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partel{
+    position:absolute;
+    top: 2000px;
+    left: 0;
+    right: 0;
+    height: 1000px;
     background-color: rgb(157, 5, 5);
     color: white;
     display: flex;
     justify-content: space-between;
 }
+
 
 .description{
     width: 400px;
@@ -118,14 +73,21 @@ p{
     margin-right: 300px;
 }
 
+
+.slides{
+    position: absolute;
+    top:3000px;
+
+}
+
+
 footer{
     position: absolute;
-    top: 2200px;
+    top: 4000px;
     left: 0;
     right: 0;
     padding: 110px;
     color: white;
-    margin-top: 100px;
     height: 700px;
     background-color: rgb(35, 35, 35);
     display: flex;
