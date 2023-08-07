@@ -12,7 +12,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #091448;
+    background: linear-gradient(to bottom, #00152A, #001F3F 35%, #eae8e1 85%, #ffffff); /* Azul arriba, blanco abajo */
 }
 
     .titles{
