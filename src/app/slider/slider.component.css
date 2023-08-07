@@ -74,3 +74,28 @@
     font-size: 20px;
     font-weight: 200;
 }
+
+
+@media (max-width: 768px) {
+    .slider-container {
+        text-align: center;
+    }
+
+    .slider {
+        display: block; 
+    }
+
+    .slide {
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .slider-controls {
+        margin-top: 10px; 
+    }
+
+    .slider-btn {
+        font-size: 20px; 
+    }
+}
+
